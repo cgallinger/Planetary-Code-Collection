@@ -39,7 +39,7 @@ program ensemble
   albedo = 0.12
   emiss = 0.95
   porosity_s = 0.56; porosity_d = 0.28
-  k_s = 7.4e-4; k_d = 3.4e-3
+  k_s = 7.4e-4; k_d = 3.4e-3 ! k_s = 8.0e-4; k_d = 3.8e-3 ! Martinez et al. (2021) lunar1Dheat values
   k_d = 6e-3
   
   do k=1,10000  ! size of ensemble
